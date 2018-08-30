@@ -14,6 +14,6 @@ pipeline {
     }
   }
   triggers {
-    eventTrigger(simpleMatch('<username>Event'))
+    eventTrigger(simpleMatch('TBBEvent'))
   }
 }
